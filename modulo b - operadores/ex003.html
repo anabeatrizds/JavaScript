@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiro programa do curso</title>
+</head>
+<body>
+    <!--isso é um comentário-->
+    <h1>Olá, Mundo!</h1>
+
+    <script>
+        var n1 = Number.parseInt(window.prompt("Digite um número"))
+        var n2 = Number.parseInt(window.prompt("Digite outro número"))
+        var soma = n1 + n2
+        //window.alert("A soma dos números é " + soma);
+        window.alert(`A soma do ${n1} + ${n2} é igual a ${soma}`) //template string
+
+        /*para o js entender o + de soma é necessario ser:
+        number + number
+
+        para + sendo contatenação precisa ser: string + string
+
+        se var soma = n1+n2 - é necessário converter para número
+
+        String > Number 
+
+        uma das maneiras:
+        Number.parseInt(n) - converter para real
+        ou
+        Number.parseFloat(n) - para números quebrados para converter inteiro
+        ou
+        Number(n)
+
+        ---
+        Numero > String
+
+        String(n)
+        n.toString(n)
+
+
+        var s = "JavaScript"
+        "Estou aprendendo " + s
+        concatenar ^
+
+        nome 
+
+        ----
+        Exemplo de Concatenização
+
+        nome = "Ana"
+        idade = 18
+        nota = 10
+
+        ("O aluno " + nome + " com " + idade + " anos, tirou a nota " + nota) - concatenização
+
+        na versão mais recente:
+        Template String - é preciso usar ` crase - para interpolar
+        `Eu estou aprendendo${s}`
+
+        `o aluno ${nome} com ${idade} anos, tirou a nota ${nota}`
+        */
+    </script>
+</body>
+</html>
