@@ -1,0 +1,23 @@
+body {
+    font-style: Arial;
+}
+
+#area {
+    font: normal 20pt Arial;
+    background: rgb(124, 207, 0);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+} 
+
+#area2 {
+    font: normal 20pt Arial;
+    background: rgb(124, 207, 0);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
